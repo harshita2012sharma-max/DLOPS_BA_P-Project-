@@ -55,15 +55,12 @@ In Pipeline folder -->> create new file 'stage_01_data_ingestion.py'
 Update the main.py 
 Now run python main.py  and we will see in artifacts folder data unzip and runnig all process . 
 
-------------------------------------------------------------------- 
 -------------------------------------------------------------------
 
 config.yaml file --->>>>> prepare_base_model added 
 
 
 Research folder ---> prepare_base_model file ----> create  
-
-------------------------------------------------------------------------------------------
 
 ------------------------------------------------------------------------------------------
 ------------------------------------------------------------------
@@ -88,3 +85,20 @@ For run this , we have to add this stage_02 in main.py
 from src.cnnClassifier.pipeline.stage_02_prepare_base_model import PrepareBaseModelTrainingPipeline
 
 --------------------------------------------------------------
+
+--------------------------------------------------------------
+
+Now add prepare_callbacks in config.yaml 
+
+Now create file '03_prepare_callbacks.ipynb' in 'research' folder ---> and write in this.
+
+
+Now add prepare_callbacks_config dataclass into 'entity' folder ---> 'config_entity.py' 
+
+
+Now add 'get_prepare_callback_config' function  into config folder in 'configuration.py' 
+
+
+Now go to 'components' folder ---> create file 'prepare_callbacks.py' 
+
+---------------------------------------------------------------
