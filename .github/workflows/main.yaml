@@ -80,7 +80,7 @@ jobs:
 
       - name: Pull latest image
         run: |
-          docker pull ${{ steps.login-ecr.outputs.registry }}/${{ secrets.ECR_REPOSITORY_NAME }}:latest
+          docker pull ${{ steps.login-ecr.outputs.registry }}/${{ secrets.ECR_REPOSITORY_NAME }}:chicken
 
       - name: Stop and remove existing container (if running)
         run: |
