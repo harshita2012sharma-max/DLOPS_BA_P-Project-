@@ -236,3 +236,12 @@ x==========x]
 [2026-05-10 23:23:02,330: INFO: _internal: 127.0.0.1 - - [10/May/2026 23:23:02] "GET / HTTP/1.1" 200 -]
 [2026-05-10 23:23:09,068: INFO: _internal:  * Detected change in 'C:\\Users\\HARSHITA\\OneDrive\\Documents\\Desktop\\dlops_ba_p\\app.py', reloading]
 [2026-05-10 23:23:11,835: INFO: _internal:  * Restarting with stat]
+[2026-05-11 10:39:31,643: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.36:8080]
+[2026-05-11 10:39:31,643: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2026-05-11 10:39:41,883: INFO: _internal: 127.0.0.1 - - [11/May/2026 10:39:41] "GET / HTTP/1.1" 200 -]
+[2026-05-11 10:39:42,082: INFO: _internal: 127.0.0.1 - - [11/May/2026 10:39:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2026-05-11 10:39:53,976: INFO: _internal: 192.168.1.36 - - [11/May/2026 10:39:53] "GET / HTTP/1.1" 200 -]
+[2026-05-11 10:39:54,620: INFO: _internal: 192.168.1.36 - - [11/May/2026 10:39:54] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
